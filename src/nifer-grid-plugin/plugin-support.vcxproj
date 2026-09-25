@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C1AE9CFB-B5D6-3163-A66E-4B81676818E8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>plugin-support</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">plugin-support.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">plugin-support</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">plugin-support.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">plugin-support</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">plugin-support.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">plugin-support</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">plugin-support.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">plugin-support</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /Brepro /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;DEBUG;_DEBUG;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;DEBUG;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /Brepro /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /Brepro /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8 /Brepro /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule N:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SN:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin" "-BN:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/build_x64" --check-stamp-file "N:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/build_x64/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeCCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeSystem.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\bootstrap.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\buildnumber.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\buildspec_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\compiler_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\helpers_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\osconfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\buildspec.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\compilerconfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\defaults.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\helpers.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\resources\resource.rc.in;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src\plugin-support.c.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SN:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin" "-BN:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/build_x64" --check-stamp-file "N:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/build_x64/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeCCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeSystem.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\bootstrap.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\buildnumber.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\buildspec_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\compiler_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\helpers_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\osconfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\buildspec.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\compilerconfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\defaults.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\helpers.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\resources\resource.rc.in;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src\plugin-support.c.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule N:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SN:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin" "-BN:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/build_x64" --check-stamp-file "N:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/build_x64/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeCCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeSystem.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\bootstrap.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\buildnumber.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\buildspec_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\compiler_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\helpers_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\osconfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\buildspec.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\compilerconfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\defaults.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\helpers.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\resources\resource.rc.in;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src\plugin-support.c.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule N:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SN:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin" "-BN:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/build_x64" --check-stamp-file "N:/Editing Folder/Nifer - Cracks/Projects/nifer-multipass/nifer-grid-plugin/build_x64/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\libobsTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\obs-frontend-apiTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsConfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsConfigVersion.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets-debug.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets-release.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\.deps\cmake\w32-pthreadsTargets.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeCCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\4.3.1\CMakeSystem.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\bootstrap.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\buildnumber.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\buildspec_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\compiler_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\helpers_common.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\common\osconfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\buildspec.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\compilerconfig.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\defaults.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\helpers.cmake;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\cmake\windows\resources\resource.rc.in;N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src\plugin-support.c.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\plugin-support.c" />
+    <ClInclude Include="N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\src\plugin-support.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="N:\Editing Folder\Nifer - Cracks\Projects\nifer-multipass\nifer-grid-plugin\build_x64\ZERO_CHECK.vcxproj">
+      <Project>{7CEEFCDA-183C-3F6A-ACCF-3458D5CE250E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
