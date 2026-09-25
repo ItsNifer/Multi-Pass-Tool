@@ -19,7 +19,7 @@
 
 ## Usage
 1. Download the [latest](https://github.com/ItsNifer/Multi-Pass-Tool/releases/latest) update from the releases page.
-2. Install ReShade 6.8+ into your game with **full add-on support** (only use on offline clients / singleplayer games).
+2. Install ReShade 6.7+ into your game with **full add-on support** (only use on offline clients / singleplayer games).
 3. Extract "**NiferMultiPass.fx**" into "(game directory)/reshade-shaders/Shaders"
 4. Extract "**nifer_multipass.addon64**" into the game directory (where you see the .exe of the game)
 5. Extract "**nifer-multipass-source.dll**" into "(OBS folder)/obs-plugins/64bit", then restart OBS
@@ -71,7 +71,7 @@ If you cannot install ReShade with add-on support, the **Grid** version works wi
 | **Frame cycle** | Native resolution, pass frame rate becomes game fps / cycle length |
 
 ## Requirements
-- ReShade 6.8+ with full add-on support (the Grid version works on any build)
+- ReShade 6.7+ with full add-on support (the Grid version works on any build)
 - A DirectX 10, 11 or 12 game (Vulkan and OpenGL are not supported)
 - OBS Studio 28 or newer, 64-bit
 
