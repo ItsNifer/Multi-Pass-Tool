@@ -5,7 +5,7 @@
 </p>
 <h5 align="center">Nifer's Multi-Pass Tool is a ReShade shader, ReShade addon and OBS plugin that record multiple render passes from your game at the same time. Color (without shaders), Color (with shaders), Depth and Normals are each captured at full resolution and recorded to their own separate video file, in sync, from a single button press. Depth can also be exported as a 32-bit float EXR image sequence for compositing.                                                                               </p>
   <p align="center">
-  <img src="https://github.com/ItsNifer/Multi-Pass-Tool/blob/main/img/MPT_example.png" alt="MPT"/>
+  <img src="https://github.com/ItsNifer/Multi-Pass-Tool/blob/055d22ec0e1223b789f2377a7b2d6a85f12d9d36/imgs/MPT-1.png" alt="MPT"/>
 </p>
 </h5>
 
@@ -29,7 +29,7 @@
 7. Both techniques draw nothing on screen, that is correct. Your game looks completely normal while recording.
 
 <p align="left">
-  <img src="https://github.com/ItsNifer/Multi-Pass-Tool/blob/main/img/MP_reshade.png" alt="reshade list"/>
+  <img src="https://github.com/ItsNifer/Multi-Pass-Tool/blob/055d22ec0e1223b789f2377a7b2d6a85f12d9d36/imgs/MPT-2.png" alt="reshade list"/>
 </p>
 
 ## OBS Setup
@@ -41,7 +41,10 @@
 5. Press Start Recording. Every pass writes its own file, all starting and stopping on the same frame
 
 <p align="left">
-  <img src="https://github.com/ItsNifer/Multi-Pass-Tool/blob/main/img/MP_obs.png" alt="obs sources"/>
+  <img src="https://github.com/ItsNifer/Multi-Pass-Tool/blob/055d22ec0e1223b789f2377a7b2d6a85f12d9d36/imgs/MPT-3.png" alt="obs sources"/>
+</p>
+<p align="left">
+  <img src="https://github.com/ItsNifer/Multi-Pass-Tool/blob/055d22ec0e1223b789f2377a7b2d6a85f12d9d36/imgs/MPT-4.png" alt="obs sources"/>
 </p>
 
 ## Hotkeys
@@ -62,6 +65,9 @@ Hidden sources are never recorded, so hide a pass with the eye icon to leave it 
 
 ## No Add-On Version
 If you cannot install ReShade with add-on support, the **Grid** version works with any ReShade build. The shader draws the passes on screen and the OBS plugin crops each one into its own source. Choose a layout depending on what matters more to you:
+<p align="left">
+  <img src="https://github.com/ItsNifer/Multi-Pass-Tool/blob/e13e649ba92e337fefa17dbce9ef7dd6f5d78b94/imgs/MPT-5.png" alt="obs sources"/>
+</p>
 
 | Layout | Trade off |
 | --- | --- |
