@@ -1,6 +1,6 @@
 <h1 align="center">Nifer's Multi-Pass Tool (MPT)</h1>
 <p align="center">
-  <a href="https://github.com/ItsNifer/Nifer-MultiPass/releases/latest"><img alt="Download" src="https://custom-icon-badges.demolab.com/badge/-Download-limegreen?style=for-the-badge&logo=download&logoColor=white"></a>
+  <a href="https://github.com/ItsNifer/Multi-Pass-Tool/releases/download/v2.0/Nifer.Multi-Pass.Tool.v2.0.rar"><img alt="Download" src="https://custom-icon-badges.demolab.com/badge/-Download-limegreen?style=for-the-badge&logo=download&logoColor=white"></a>
   <a href="https://twitter.com/NiferEdits"><img alt="Twitter" src="https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>
 </p>
 <h5 align="center">Nifer's Multi-Pass Tool is a ReShade shader, ReShade addon and OBS plugin that record multiple render passes from your game at the same time. Color (without shaders), Color (with shaders), Depth and Normals are each captured at full resolution and recorded to their own separate video file, in sync, from a single button press. Depth can also be exported as a 32-bit float EXR image sequence for compositing.                                                                               </p>
